@@ -15,15 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
  <distributionManagement>
-   <snapshotRepository>
-    <id>maven-snapshots</id>
-    <url>http://http://35.196.53.226:8081/nexus/content/repositories/maven-snapshots</url>
-  </snapshotRepository>
  <repository>
-    <id>maven-releases</id>
-    <url>http://http://35.196.53.226:8081/nexus/content/repositories/maven-releases</url>
+    <id>maven-release</id>
+    <url>http://35.196.53.226:8081/nexus/content/repositories/maven-release</url>
   </repository>
+ <snapshotRepository>
+    <id>maven-snapshot</id>
+    <url>http://35.196.53.226:8081/nexus/content/repositories/maven-snapshot</url>
+  </snapshotRepository>
 </distributionManagement>
 </project>
